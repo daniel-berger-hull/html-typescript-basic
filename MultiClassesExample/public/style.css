@@ -1,0 +1,85 @@
+body {
+    margin-top: 0px;
+    background-color: #EDF5FF;
+    color: black;
+}
+
+.wrapper {
+    margin: auto;
+    width: 50%;
+}
+
+#promo-header {
+    margin-top: 0px;
+    height: 30px;
+    background-color: #3B82F6;
+    color: white;
+    text-align: center;
+}
+
+#promo-header-close-button {
+    float: right;
+    width: 30px;
+    height: 30px;
+    
+    border-radius: 50%;
+    text-align: center;
+}
+
+#promo-header-close-button:hover {
+    background-color: #629BF8;
+}
+
+.superText {
+color: red;
+font-size: 40px;
+font-weight: bold;
+
+-webkit-text-stroke: 1px darkgrey;
+text-shadow: 1px 1px 4px black, 0px 0px 20px black;
+}
+
+
+
+#action-button-zone {
+    margin: auto;
+    width: 30%;
+    background-color: rebeccapurple;
+}
+
+#action-button {
+
+    width: 100px;
+    height: 30px;
+    background-color: #3B82F6;
+    color: white;
+
+    border-radius: 10px;
+
+    border: 2px solid black;
+
+    box-shadow: 2px 2px 4px black;
+}
+
+#action-button:hover {
+    background-color: #629BF8;
+}
+
+#action-button:active {
+    background-color: red;
+    transform: translate(2px, 2px);
+}
+
+#data-content {
+
+    margin: auto;
+    width: 30%;
+    display: flex; /* or inline-flex */
+    flex-direction: column; 
+    background-color: #3b83f6af;
+    color: white ;
+
+}
+
+
+
